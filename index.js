@@ -30,7 +30,8 @@ console.log(bot.commands);
 bot.on('ready', () => { //Iniciando o comando de Status do Bot.
     let activities = [ //Iniciando as atividades do Bot.
         `Digite .help `,
-        `V2.0 By: Felipe#5995`
+        `V2.0 By: Felipe#5995`,
+        `Digite .planos`
     ]
     i = 0;
     setInterval(() => bot.user.setActivity(`${activities[i++ %
