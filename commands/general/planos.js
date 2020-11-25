@@ -21,6 +21,6 @@ const execute = async (bot, message, args) => {
         message.channel.send(embed).then(m => m.delete({ timeout: "30000"}));
 }
 module.exports = {
-    name: 'help',
+    name: 'planos',
     execute,
 }
