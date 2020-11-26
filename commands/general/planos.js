@@ -6,7 +6,7 @@ const execute = async (bot, message, args) => {
 
         .setColor('#4238ff')
         .setTitle('Nossos planos:')
-        .addField('Bot EAP Basic','Ban, Kick, Clear e Ticket => R$ 60.00')
+        .addField('Bot EAP Basic','Ban, Kick, Clear e Ticket => R$ 60.00 \n Link de pagamento: https://mpago.la/2kQGfgH')
         .addField('Bot EAP Medium','Ban, Kick, Clear, Ticket, Anúncio e Sortear => R$95.00 ')
         .addField('Bot EAP Advanced','Ban, Kick, Clear, Ticket, Anúncio, Sortear, Votação e Música(V1.0) => R$ 120.00')
         .addField('Bot EAP Magic','Ban, Kick, Clear, Ticket, Anúncio, Sortear, Votação, Música(V1.0), Anti-flood, Anti-invite => R$ 160.00')
