@@ -17,6 +17,7 @@ const execute = async (bot, message, args) => {
         .addField('2020008','@DJ Marra')
         .addField('2020009','@Samson')
         .addField('2020010','@Alysson Henrique')
+        .addField('2020011','@Boltz')
         .setFooter(bot.user.username, bot.user.displayAvatarURL())
 
         message.channel.send(embed0)
