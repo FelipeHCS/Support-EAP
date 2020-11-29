@@ -5,7 +5,7 @@ const execute = async (bot, message, args) => {
     let embed = new Discord.MessageEmbed()
 
         .setColor('#4238ff')
-        .setTitle(':flag_br: :flag_us: | Nossos planos: \n :flag_us: | Our plans')
+        .setTitle(':flag_br: | Nossos planos: \n :flag_us: | Our plans')
         .addField(':flag_br: :flag_us: | Bot EAP Basic','Ban, Kick, Clear e Ticket => R$ 60.00 \n Link de pagamento: https://mpago.la/2kQGfgH')
         .addField(':flag_br: :flag_us: | Bot EAP Medium','Ban, Kick, Clear, Ticket, Anúncio e Sortear => R$95.00 \n Link de pagamento: https://mpago.la/28sQ4fQ ')
         .addField(':flag_br: :flag_us: | Bot EAP Advanced','Ban, Kick, Clear, Ticket, Anúncio, Sortear, Votação e Música(V1.0) => R$ 120.00 \n Link de pagamento: https://mpago.la/2HQaVNw')
