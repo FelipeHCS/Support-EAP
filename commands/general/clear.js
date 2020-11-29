@@ -15,7 +15,7 @@ const execute = async (bot, message, args) => {
         deleteCount = parseInt(args[0]);
     }
     message.channel.bulkDelete(deleteCount, true);
-    message.channel.send(`${deleteCount} Mensagens foram limpas nesse chat 😉`)
+    message.channel.send(`:flag_br: | ${deleteCount} Mensagens foram limpas nesse chat 😉 \n :flag_us: | ${deleteCount} Messages were cleared in this chat 😉 `)
         .catch(err => console.log(err));
 }
 

@@ -90,7 +90,7 @@ bot.on('message', async message => {
     if (message.member.hasPermission("ADMINISTRATOR")) {
     } else if (message.content.includes('https://discord.gg/') || message.content.includes('discord.gg/')) {
         message.delete();
-        return message.reply('É proibido enviar convites de outros servidores aqui')
+        return message.reply(':flag_br: | É proibido enviar convites de outros servidores aqui \n :flag_us: | It is forbidden to send invitations from other servers here')
     };
 })
 
@@ -103,7 +103,7 @@ bot.on('message', (message) => {
     try {
         bot.commands.get(command).execute(bot, message, args);
     } catch (e) {
-        return message.reply("não reconheço este comando :/");
+        return message.reply(":flag_br: | Não reconheço este comando :( \n :flag_us: | I don't recognize this command");
     }
 })
 
