@@ -5,7 +5,7 @@ const execute = async (bot, message, args) => {
     let embed0 = new Discord.MessageEmbed()
 
         .setColor('#4238ff')
-        .setTitle('Nossos clientes:')
+        .setTitle(':flag_br: | Nossos clientes: \n :flag_us: | Our Clients ')
         .setThumbnail('https://cdn.vivotech.com.br/vivo-tech/wp-content/uploads/2018/08/13162940/bot_para_que_serve.jpg')
         .addField('2020001','@Israel Hilário')
         .addField('2020002','@Tavares')
