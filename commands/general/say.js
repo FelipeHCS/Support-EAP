@@ -31,7 +31,7 @@ const execute = async (bot, message, args) => {
             });
             p3.on("collect", async () => {
                 let resp = p2.collected.first().content
-                let piru = await message.guild.channels.cache.get(canal.id).send(embed)
+                let piru = await message.guild.channels.cache.get(canal.id).send(resp)
             })
         })
     })
